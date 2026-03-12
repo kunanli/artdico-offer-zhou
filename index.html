@@ -151,8 +151,8 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
   <!-- S2 NAME -->
   <div class="slide s2" data-i="1">
     <p class="s2-pre a">// recipient</p>
-    <h2 class="s2-name a">陳雨欣</h2>
-    <p class="s2-pinyin a">Chen Yu-Xin</p>
+    <h2 class="s2-name a">周雨霏</h2>
+    <p class="s2-pinyin a">Zhou Yu-Fei</p>
     <div class="s2-divider a"></div>
     <p class="s2-welcome a">我們看見了你的才華，期待你的加入</p>
   </div>
@@ -160,8 +160,8 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
   <!-- S3 ROLE -->
   <div class="slide s3" data-i="2">
     <p class="s3-role-label a">// position</p>
-    <h2 class="s3-role a">多媒體設計師</h2>
-    <p class="s3-role-en a">Multimedia Designer</p>
+    <h2 class="s3-role a">品牌市場專員</h2>
+    <p class="s3-role-en a">Brand Marketing Specialist</p>
     <div class="s3-grid a">
       <div class="s3-row">
         <span class="s3-k">dept</span>
@@ -209,9 +209,9 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
     <div class="tag a">// action required</div>
     <div style="height:28px"></div>
     <h2 class="s5-head a">歡迎加入<br>ARTDiCO 大家庭</h2>
-    <p class="s5-sub a">Welcome aboard, 陳雨欣</p>
+    <p class="s5-sub a">Welcome aboard, 周雨霏</p>
     <button class="btn a" id="btn" onclick="goSign()">accept_offer()</button>
-    <p class="s5-dl a">// 請於 2026-03-10 前回覆</p>
+    <p class="s5-dl a">// 請於 2026-03-17 前回覆</p>
   </div>
 
   <!-- S6 SIGNATURE -->
@@ -364,7 +364,7 @@ async function submitOffer(){
       body:JSON.stringify({
         _subject: '✦ Offer Accepted — ' + name,
         name: name,
-        position: '多媒體設計師 · Multimedia Designer',
+        position: '品牌市場專員 · Brand Marketing Specialist',
         department: '品牌市場部',
         start_date: '2026年3月17日',
         signed_at: document.getElementById('todayDate').textContent,
